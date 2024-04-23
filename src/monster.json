@@ -1,180 +1,193 @@
 {
-    "monsters": [
-      {
-        "Id": 1,
-        "First_name": "Grog",
-        "Last_name": "Grayhead",
-        "Class": "Troll",
-        "Program": "Forest School",
-        "Things_that_describe_the_monster": "Large, strong, gray-skinned with long arms and large teeth",
-        "Appearance": {
-          "number_of_eyes": 2,
-          "tentacles": 0,
-          "color": "Gray",
-          "type_of_skin/fur": "Rough skin",
-          "has_horns": true
-        },
-        "Carnivore": true,
-        "Herbivore": false,
-        "Omnivore": false,
-        "Interests": ["Combat", "Forest trekking"],
-        "Courses": ["Club 101", "Rock-and-throw course"],
-        "Grades": {
-          "Club 101": "A",
-          "Rock-and-throw course": "B"
-        },
-        "Hometown": "Trollwood"
+  "monsters": [
+    {
+      "Id": 1,
+      "First_name": "Grog",
+      "Last_name": "Grayhead",
+      "Gender": "Male",
+      "Class": "Forest Guardian",
+      "Program": "Forest School",
+      "Things_that_describe_the_monster": "Large, strong, gray-skinned with long arms and large teeth",
+      "Appearance": {
+        "number_of_eyes": 2,
+        "tentacles": 0,
+        "color": "Gray",
+        "type_of_skin/fur": "Rough skin",
+        "has_horns": true
       },
-      {
-        "Id": 2,
-        "First_name": "Slyza",
-        "Last_name": "Paw",
-        "Class": "Sea Troll",
-        "Program": "Underwater Academy",
-        "Things_that_describe_the_monster": "Agile, fast, blue-colored with long fins and sharp teeth",
-        "Appearance": {
-          "number_of_eyes": 3,
-          "tentacles": 0,
-          "color": "Blue",
-          "type_of_skin/fur": "Aquatic fur",
-          "has_horns": false
-        },
-        "Carnivore": true,
-        "Herbivore": false,
-        "Omnivore": false,
-        "Interests": ["Swimming", "Hunting sports"],
-        "Courses": ["Underwater navigation", "Prey fishing"],
-        "Grades": {
-          "Underwater navigation": "A",
-          "Prey fishing": "A"
-        },
-        "Hometown": "Deepsea"
+      "Carnivore": true,
+      "Herbivore": false,
+      "Omnivore": false,
+      "Interests": ["Combat", "Forest trekking"],
+      "Courses": ["Club 101", "Rock-and-throw course"],
+      "Grades": {
+        "Club 101": "A",
+        "Rock-and-throw course": "B+"
       },
-      {
-        "Id": 3,
-        "First_name": "Zizz",
-        "Last_name": "Zuzz",
-        "Class": "Zarg",
-        "Program": "Flight Academy",
-        "Things_that_describe_the_monster": "Tall, dark green, with sharp wings and glowing eyes",
-        "Appearance": {
-          "number_of_eyes": 4,
-          "tentacles": 2,
-          "color": "Dark green",
-          "type_of_skin/fur": "Scaled",
-          "has_horns": false
-        },
-        "Carnivore": true,
-        "Herbivore": false,
-        "Omnivore": false,
-        "Interests": ["Flying", "Dark corners"],
-        "Courses": ["Airflow dynamics", "Dark twilight"],
-        "Grades": {
-          "Airflow dynamics": "A",
-          "Dark twilight": "B"
-        },
-        "Hometown": "Shadowland"
+      "Hometown": "Trollwood",
+      "Origin": "Enchanted Forest"
+    },
+    {
+      "Id": 2,
+      "First_name": "Slyza",
+      "Last_name": "Paw",
+      "Gender": "Female",
+      "Class": "Undersea Hunter",
+      "Program": "Underwater Academy",
+      "Things_that_describe_the_monster": "Agile, fast, blue-colored with long fins and sharp teeth",
+      "Appearance": {
+        "number_of_eyes": 3,
+        "tentacles": 0,
+        "color": "Blue",
+        "type_of_skin/fur": "Aquatic fur",
+        "has_horns": false
       },
-      {
-        "Id": 4,
-        "First_name": "Rocky",
-        "Last_name": "Drifter",
-        "Class": "Stonegrim",
-        "Program": "Rock University",
-        "Things_that_describe_the_monster": "Rock-like, with sharp claws and rugged surface",
-        "Appearance": {
-          "number_of_eyes": 2,
-          "tentacles": 0,
-          "color": "Gray-brown",
-          "type_of_skin/fur": "Rocky",
-          "has_horns": false
-        },
-        "Carnivore": true,
-        "Herbivore": false,
-        "Omnivore": false,
-        "Interests": ["Rock climbing", "Mineral hunting"],
-        "Courses": ["Rock formations", "Earthquake safety"],
-        "Grades": {
-          "Rock formations": "A",
-          "Earthquake safety": "B"
-        },
-        "Hometown": "Rockcastle"
+      "Carnivore": true,
+      "Herbivore": false,
+      "Omnivore": false,
+      "Interests": ["Swimming", "Hunting sports"],
+      "Courses": ["Underwater navigation", "Prey fishing"],
+      "Grades": {
+        "Underwater navigation": "A-",
+        "Prey fishing": "B"
       },
-      {
-        "Id": 5,
-        "First_name": "Glimmer",
-        "Last_name": "Mystique",
-        "Class": "Glittergeist",
-        "Program": "Dusk Academy",
-        "Things_that_describe_the_monster": "Shimmering, translucent with fluttering wings and glowing antennae",
-        "Appearance": {
-          "number_of_eyes": 6,
-          "tentacles": 0,
-          "color": "Glittering",
-          "type_of_skin/fur": "Glossy",
-          "has_horns": false
-        },
-        "Carnivore": false,
-        "Herbivore": false,
-        "Omnivore": true,
-        "Interests": ["Stargazing", "Magical rituals"],
-        "Courses": ["Light magic", "Star guiding"],
-        "Grades": {
-          "Light magic": "A",
-          "Star guiding": "A"
-        },
-        "Hometown": "Dusk Valley"
+      "Hometown": "Deepsea",
+      "Origin": "Abyssal Ocean"
+    },
+    {
+      "Id": 3,
+      "First_name": "Zizz",
+      "Last_name": "Zuzz",
+      "Gender": "Male",
+      "Class": "Skyborne Scout",
+      "Program": "Flight Academy",
+      "Things_that_describe_the_monster": "Tall, dark green, with sharp wings and glowing eyes",
+      "Appearance": {
+        "number_of_eyes": 4,
+        "tentacles": 2,
+        "color": "Dark green",
+        "type_of_skin/fur": "Scaled",
+        "has_horns": false
       },
-      {
-        "Id": 6,
-        "First_name": "Shadow",
-        "Last_name": "Howler",
-        "Class": "Dark Werewolf",
-        "Program": "Night Academy",
-        "Things_that_describe_the_monster": "Dark, hairy with glowing eyes and sharp claws",
-        "Appearance": {
-          "number_of_eyes": 2,
-          "tentacles": 0,
-          "color": "Black",
-          "type_of_skin/fur": "Hairy",
-          "has_horns": false
-        },
-        "Carnivore": true,
-        "Herbivore": false,
-        "Omnivore": false,
-        "Interests": ["Night wandering", "Moonlit hunting"],
-        "Courses": ["Dark hunting", "Moonlighting"],
-        "Grades": {
-          "Dark hunting": "A",
-          "Moonlighting": "B"
-        },
-        "Hometown": "Shadowglade"
+      "Carnivore": true,
+      "Herbivore": false,
+      "Omnivore": false,
+      "Interests": ["Flying", "Dark corners"],
+      "Courses": ["Airflow dynamics", "Dark twilight"],
+      "Grades": {
+        "Airflow dynamics": "B",
+        "Dark twilight": "C+"
       },
-      {
-        "Id": 7,
-        "First_name": "Flora",
-        "Last_name": "Blossom",
-        "Class": "Rosetroll",
-        "Program": "Floral Academy",
-        "Things_that_describe_the_monster": "Colorful, with flower-patterned skin and friendly eyes",
-        "Appearance": {
-          "number_of_eyes": 2,
-          "tentacles": 0,
-          "color": "Colorful",
-          "type_of_skin/fur": "Floral",
-          "has_horns": false
-        },
-        "Carnivore": false,
-        "Herbivore": true,
-        "Omnivore": false,
-        "Interests": ["Gardening", "Flower arrangements"],
-        "Courses": ["Botany", "Garden design"],
-        "Grades": {
-          "Botany": "A",
-          "Garden design": "A"
-        },
-        "Hometown": "Bloomville"
-      }
-    ]
-  }
-  
+      "Hometown": "Shadowland",
+      "Origin": "Highland Peaks"
+    },
+    {
+      "Id": 4,
+      "First_name": "Rocky",
+      "Last_name": "Drifter",
+      "Gender": "Male",
+      "Class": "Geomancer",
+      "Program": "Rock University",
+      "Things_that_describe_the_monster": "Rock-like, with sharp claws and rugged surface",
+      "Appearance": {
+        "number_of_eyes": 2,
+        "tentacles": 0,
+        "color": "Gray-brown",
+        "type_of_skin/fur": "Rocky",
+        "has_horns": false
+      },
+      "Carnivore": true,
+      "Herbivore": false,
+      "Omnivore": false,
+      "Interests": ["Rock climbing", "Mineral hunting"],
+      "Courses": ["Rock formations", "Earthquake safety"],
+      "Grades": {
+        "Rock formations": "A+",
+        "Earthquake safety": "A-"
+      },
+      "Hometown": "Rockcastle",
+      "Origin": "Stonewall Mountains"
+    },
+    {
+      "Id": 5,
+      "First_name": "Glimmer",
+      "Last_name": "Mystique",
+      "Gender": "Female",
+      "Class": "Celestial Guide",
+      "Program": "Dusk Academy",
+      "Things_that_describe_the_monster": "Shimmering, translucent with fluttering wings and glowing antennae",
+      "Appearance": {
+        "number_of_eyes": 6,
+        "tentacles": 0,
+        "color": "Glittering",
+        "type_of_skin/fur": "Glossy",
+        "has_horns": false
+      },
+      "Carnivore": false,
+      "Herbivore": false,
+      "Omnivore": true,
+      "Interests": ["Stargazing", "Magical rituals"],
+      "Courses": ["Light magic", "Star guiding"],
+      "Grades": {
+        "Light magic": "B+",
+        "Star guiding": "A+"
+      },
+      "Hometown": "Dusk Valley",
+      "Origin": "Celestial Realm"
+    },
+    {
+      "Id": 6,
+      "First_name": "Shadow",
+      "Last_name": "Howler",
+      "Gender": "Male",
+      "Class": "Night Stalker",
+      "Program": "Night Academy",
+      "Things_that_describe_the_monster": "Dark, hairy with glowing eyes and sharp claws",
+      "Appearance": {
+        "number_of_eyes": 2,
+        "tentacles": 0,
+        "color": "Black",
+        "type_of_skin/fur": "Hairy",
+        "has_horns": false
+      },
+      "Carnivore": true,
+      "Herbivore": false,
+      "Omnivore": false,
+      "Interests": ["Night wandering", "Moonlit hunting"],
+      "Courses": ["Dark hunting", "Moonlighting"],
+      "Grades": {
+        "Dark hunting": "A-",
+        "Moonlighting": "C"
+      },
+      "Hometown": "Shadowglade",
+      "Origin": "Eternal Nightlands"
+    },
+    {
+      "Id": 7,
+      "First_name": "Flora",
+      "Last_name": "Blossom",
+      "Gender": "Female",
+      "Class": "Floral Artisan",
+      "Program": "Floral Academy",
+      "Things_that_describe_the_monster": "Colorful, with flower-patterned skin and friendly eyes",
+      "Appearance": {
+        "number_of_eyes": 2,
+        "tentacles": 0,
+        "color": "Colorful",
+        "type_of_skin/fur": "Floral",
+        "has_horns": false
+      },
+      "Carnivore": false,
+      "Herbivore": true,
+      "Omnivore": false,
+      "Interests": ["Gardening", "Flower arrangements"],
+      "Courses": ["Botany", "Garden design"],
+      "Grades": {
+        "Botany": "B-",
+        "Garden design": "B+"
+      },
+      "Hometown": "Bloomville",
+      "Origin": "Flower Meadows"
+    }
+  ]
+}

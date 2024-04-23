@@ -1,0 +1,38 @@
+@import './fonts';
+@import './colors';
+
+
+body{
+    background-color: $dark;
+.nav-bar{
+    list-style: none;  
+    display: flex;
+   
+
+ 
+li{
+    background-color: $rose;
+    margin-right: 20px;
+    height:4rem;
+    width: 6rem;
+    border-radius: 1.5rem;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    cursor: pointer;
+    color: $white;
+    
+}  
+
+li:hover{
+    color: $lightrose;
+}
+}  
+.welcome-title{
+font-family: monsterFont;
+color: $lightrose;
+font-size: 5rem;
+}
+
+}
+
