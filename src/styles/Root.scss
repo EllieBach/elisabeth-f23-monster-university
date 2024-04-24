@@ -1,15 +1,10 @@
 @import './fonts';
 @import './colors';
 
-body {
-    background-color: #595B8C;
-}
-
 .nav-bar {
     list-style: none;  
     display: flex;
-
-    li {
+.nav-link {
         background-color: $rose;
         margin-right: 20px;
         height: 4rem;
@@ -20,7 +15,7 @@ body {
         justify-content: center;
         cursor: pointer;
         color: $white;
-        
+        text-decoration: none;
 
         &:hover {
             color: $lightrose;
@@ -28,13 +23,11 @@ body {
         }
     }
 
-    .no-underline {
-        text-decoration: none;
-      }
+
 }  
 
-.welcome-title {
-    font-family: monsterFont;
-    color: $lightrose;
-    font-size: 5rem;
+#mulogo{
+    width: 5rem;
+    height: 5rem;
 }
+   
