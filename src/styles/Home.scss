@@ -5,33 +5,7 @@ body {
     background-color: #595B8C;
 }
 
-.nav-bar {
-    list-style: none;  
-    display: flex;
 
-    li {
-        background-color: $rose;
-        margin-right: 20px;
-        height: 4rem;
-        width: 6rem;
-        border-radius: 1.5rem;
-        align-items: center;
-        display: flex; 
-        justify-content: center;
-        cursor: pointer;
-        color: $white;
-        
-
-        &:hover {
-            color: $lightrose;
-            border: $rose solid 2px;
-        }
-    }
-
-    .no-underline {
-        text-decoration: none;
-      }
-}  
 
 .welcome-title {
     font-family: monsterFont;

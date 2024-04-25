@@ -92,7 +92,7 @@
       "Appearance": {
         "number_of_eyes": 2,
         "tentacles": 0,
-        "color": "Gray-brown",
+        "color": "Brown",
         "type_of_skin/fur": "Rocky",
         "has_horns": false
       },
@@ -119,7 +119,7 @@
       "Appearance": {
         "number_of_eyes": 6,
         "tentacles": 0,
-        "color": "Glittering",
+        "color": "White",
         "type_of_skin/fur": "Glossy",
         "has_horns": false
       },
@@ -173,7 +173,7 @@
       "Appearance": {
         "number_of_eyes": 2,
         "tentacles": 0,
-        "color": "Colorful",
+        "color": "Green",
         "type_of_skin/fur": "Floral",
         "has_horns": false
       },
